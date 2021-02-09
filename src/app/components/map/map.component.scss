@@ -1,0 +1,31 @@
+.buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  button {
+    background: grey;
+    border-width: 0;
+    font-size: 18px;
+    padding: 5px 15px;
+    color: white;
+    width: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+}
+
+.map-container {
+  height: 600px;
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+
+  .chart-div {
+    height: 600px;
+    width: 100%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: #fff;
+  }
+}
